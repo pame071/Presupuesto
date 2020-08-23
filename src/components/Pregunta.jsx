@@ -61,7 +61,7 @@ const Pregunta = ({guardarPresupuesto, guardarRestante, actualizar}) => {
 
 Pregunta.prototype = {
     guardarPresupuesto: PropTypes.func.isRequired,
-    guardarPresupuesto: PropTypes.func.isRequired,
+    guardarRestante: PropTypes.func.isRequired,
     actualizar: PropTypes.func.isRequired
 }
  
